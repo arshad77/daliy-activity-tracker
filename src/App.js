@@ -1,10 +1,17 @@
 import "./styles.css";
+import styled from "styled-components";
 
-export default function App() {
-  return (
-    <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
-    </div>
-  );
+const Container = styled.div`
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+`;
+
+function App() {
+  return <Container>Hello World</Container>;
 }
+
+export default App;
