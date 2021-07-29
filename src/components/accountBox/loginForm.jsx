@@ -24,12 +24,10 @@ export function LoginForm(props) {
       <Marginer direction="vertical" margin="1.6em" />
       <SubmitButton type="submit">Signin</SubmitButton>
       <Marginer direction="vertical" margin="1em" />
-      <MutedLink href="#">
-        Don't have an accoun?{" "}
-        <BoldLink href="#" onClick={switchToSignup}>
-          Signup
-        </BoldLink>
-      </MutedLink>
+      <MutedLink href="#">Don't have an accoun? </MutedLink>
+      <BoldLink href="#" onClick={switchToSignup}>
+        Signup
+      </BoldLink>
     </BoxContainer>
   );
 }
